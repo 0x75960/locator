@@ -1,0 +1,10 @@
+[package]
+name = "locator"
+version = "0.1.0"
+authors = ["Hiromitsu Oshiba <0x75960@strelka.cc>"]
+edition = "2018"
+
+[dependencies]
+festum = {version = "0.1.0", git="https://github.com/0x75960/festum.rs"}
+structopt = "0.2"
+failure="0.1"
